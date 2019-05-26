@@ -75,12 +75,14 @@ if (b4r_main::_wifi->getIsConnected()) {
  //BA.debugLineNum = 163;BA.debugLine="Log(\"Connected to \",WiFiSSID,\" network, Local IP";
 B4R::Common::LogHelper(4,102,F("Connected to "),101,b4r_main::_wifissid->data,102,F(" network, Local IP "),101,b4r_main::_wifi->getLocalIp()->data);
  //BA.debugLineNum = 165;BA.debugLine="TimeNIST.Start";
-b4r_main::_timenist->_start();
+b4r_main::_timenist->_start /*void*/ ();
  }else {
- //BA.debugLineNum = 167;BA.debugLine="Log(\"Not Connected to WiFi\")";
+ //BA.debugLineNum = 167;BA.debugLine="ConnectToWifi";
+_connecttowifi();
+ //BA.debugLineNum = 168;BA.debugLine="Log(\"Not Connected to WiFi\")";
 B4R::Common::LogHelper(1,102,F("Not Connected to WiFi"));
  };
- //BA.debugLineNum = 169;BA.debugLine="End Sub";
+ //BA.debugLineNum = 170;BA.debugLine="End Sub";
 B4R::StackMemory::cp = cp;
 }
 void b4r_main::_mqtt_connect(Byte _unused){
@@ -278,13 +280,13 @@ B4R::Common::LogHelper(2,102,F("MQ-7 PPM: "),4,_rawvoltage);
  //BA.debugLineNum = 88;BA.debugLine="readVoltage = rawvoltage";
 b4r_main::_readvoltage = _rawvoltage;
  //BA.debugLineNum = 90;BA.debugLine="bc.ArrayCopy(TimeNIST.GetDate, NISTDate)";
-b4r_main::_bc->ArrayCopy(b4r_main::_timenist->_getdate(),b4r_main::_nistdate);
+b4r_main::_bc->ArrayCopy(b4r_main::_timenist->_getdate /*B4R::Array**/ (),b4r_main::_nistdate);
  //BA.debugLineNum = 91;BA.debugLine="NISTHour = TimeNIST.GetHours";
-b4r_main::_nisthour = b4r_main::_timenist->_gethours();
+b4r_main::_nisthour = b4r_main::_timenist->_gethours /*UInt*/ ();
  //BA.debugLineNum = 92;BA.debugLine="NISTMinute = TimeNIST.GetMinutes";
-b4r_main::_nistminute = b4r_main::_timenist->_getminutes();
+b4r_main::_nistminute = b4r_main::_timenist->_getminutes /*UInt*/ ();
  //BA.debugLineNum = 93;BA.debugLine="NISTSecond = TimeNIST.GetSeconds";
-b4r_main::_nistsecond = b4r_main::_timenist->_getseconds();
+b4r_main::_nistsecond = b4r_main::_timenist->_getseconds /*UInt*/ ();
  //BA.debugLineNum = 95;BA.debugLine="Dim s As String";
 _s = B4R::B4RString::EMPTY;
  //BA.debugLineNum = 96;BA.debugLine="s = JoinStrings(Array As String(rawvoltage,\"|\",bc";
@@ -322,11 +324,11 @@ B4R::StackMemory::cp = cp;
 }
 void b4r_main::_timeisavailable(){
 const UInt cp = B4R::StackMemory::cp;
- //BA.debugLineNum = 171;BA.debugLine="Public Sub TimeIsAvailable";
- //BA.debugLineNum = 174;BA.debugLine="MQ7Pin.Initialize(MQ7PinNumber, MQ7Pin.MODE_INPUT";
+ //BA.debugLineNum = 172;BA.debugLine="Public Sub TimeIsAvailable";
+ //BA.debugLineNum = 175;BA.debugLine="MQ7Pin.Initialize(MQ7PinNumber, MQ7Pin.MODE_INPUT";
 b4r_main::_mq7pin->Initialize(b4r_main::_mq7pinnumber,Pin_MODE_INPUT);
- //BA.debugLineNum = 175;BA.debugLine="Preparation1(0)";
+ //BA.debugLineNum = 176;BA.debugLine="Preparation1(0)";
 _preparation1((Byte) (0));
- //BA.debugLineNum = 176;BA.debugLine="End Sub";
+ //BA.debugLineNum = 177;BA.debugLine="End Sub";
 B4R::StackMemory::cp = cp;
 }
