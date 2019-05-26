@@ -170,7 +170,9 @@ End Sub
 
 Sub ConnectToWifi
 	Log("Connecting to WiFi")
-	WiFi.Connect2(WiFiSSID, WiFiPassword)
+	If WiFi.Connect2(WiFiSSID, WiFiPassword) = False Then
+		ConnectToWifi
+	End If
 
 	If WiFi.IsConnected Then
 		Log("Connected to ",WiFiSSID," network, Local IP ", WiFi.LocalIp)
