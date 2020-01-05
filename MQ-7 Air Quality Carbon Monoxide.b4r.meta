@@ -1,6 +1,6 @@
 ﻿ModuleBookmarks0=
 ModuleBreakpoints0=
 ModuleClosedNodes0=
-NavigationStack=Main,AppStart,46,0,Main,mqtt_MessageArrived,154,0,Main,ConnectToWifi,171,0,Main,Process_Globals,37,0,Main,ReadSensor2,102,0,Main,ReadSensor1,78,0
+NavigationStack=Main,AppStart,46,0,Main,mqtt_MessageArrived,154,0,Main,ConnectToWifi,171,0,Main,ReadSensor2,102,0,Main,ReadSensor1,78,0,Main,Process_Globals,35,0
 SelectedBuild=0
 VisibleModules=
