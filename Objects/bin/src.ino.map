@@ -22691,7 +22691,7 @@ END GROUP
                 0x40106e50                _text_end = ABSOLUTE (.)
                 0x40106e50                _etext = .
 
-.rodata         0x3ffe84f0      0x3c8
+.rodata         0x3ffe84f0      0x3d0
                 0x3ffe84f0                _rodata_start = ABSOLUTE (.)
  *(.sdk.version)
  .sdk.version   0x3ffe84f0       0x13 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
@@ -22715,202 +22715,201 @@ END GROUP
                 0x3ffe860c       0x32 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
                                  0x33 (size before relaxing)
  .rodata.str1.1
-                0x3ffe863e       0x96 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                                 0x98 (size before relaxing)
+                0x3ffe863e       0x9f C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                                 0xa1 (size before relaxing)
  .rodata.CSWTCH$105
-                0x3ffe86d4        0x6 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
+                0x3ffe86dd        0x6 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
  .rodata._ZL9monthDays
-                0x3ffe86da        0xc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\Time.cpp.o
+                0x3ffe86e3        0xc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\Time.cpp.o
  .rodata.str1.1
-                0x3ffe86e6       0x11 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Print.cpp.o)
- *fill*         0x3ffe86f7        0x1 
+                0x3ffe86ef       0x11 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Print.cpp.o)
  .rodata.str1.4
-                0x3ffe86f8        0xc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
+                0x3ffe8700        0xc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
  .rodata.str1.4
-                0x3ffe8704        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
+                0x3ffe870c        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
                                  0x10 (size before relaxing)
  .rodata.str1.4
-                0x3ffe870c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
+                0x3ffe8714        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
                                   0xc (size before relaxing)
  .rodata.str1.4
-                0x3ffe8710        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
+                0x3ffe8718        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
                                   0xc (size before relaxing)
  .rodata.str1.4
-                0x3ffe8714        0x3 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
+                0x3ffe871c        0x3 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
                                   0xb (size before relaxing)
- *fill*         0x3ffe8717        0x1 
+ *fill*         0x3ffe871f        0x1 
  .rodata.str1.4
-                0x3ffe8718        0x3 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
+                0x3ffe8720        0x3 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
                                   0x8 (size before relaxing)
  .rodata.str1.4
-                0x3ffe871b        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
+                0x3ffe8723        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
  .rodata.str1.4
-                0x3ffe871b        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_ie_vendor.o)
+                0x3ffe8723        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_ie_vendor.o)
  .rodata.str1.1
-                0x3ffe871b        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffe8723        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.CSWTCH$19
-                0x3ffe871b       0x10 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffe8723       0x10 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.CSWTCH$17
-                0x3ffe872b       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffe8733       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .rodata.ethbroadcast
-                0x3ffe873c        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
-                0x3ffe873c                ethbroadcast
+                0x3ffe8744        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffe8744                ethbroadcast
  .rodata.CSWTCH$14
-                0x3ffe8742       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
+                0x3ffe874a       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
  .rodata.CSWTCH$11
-                0x3ffe8753       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
+                0x3ffe875b       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
  .rodata.str1.1
-                0x3ffe8764       0x29 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+                0x3ffe876c       0x29 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
  .rodata.ethzero
-                0x3ffe878d        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
-                0x3ffe878d                ethzero
+                0x3ffe8795        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
+                0x3ffe8795                ethzero
  .rodata.ethbroadcast_LWIP2
-                0x3ffe8793        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
-                0x3ffe8793                ethbroadcast_LWIP2
- *fill*         0x3ffe8799        0x3 
+                0x3ffe879b        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ethernet.o)
+                0x3ffe879b                ethbroadcast_LWIP2
+ *fill*         0x3ffe87a1        0x3 
  .rodata.memp_pools
-                0x3ffe879c       0x2c C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe879c                memp_pools
+                0x3ffe87a4       0x2c C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x3ffe87a4                memp_pools
  .rodata.memp_PBUF_POOL
-                0x3ffe87c8        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87c8                memp_PBUF_POOL
- .rodata.memp_PBUF
-                0x3ffe87ca        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87ca                memp_PBUF
- .rodata.memp_SYS_TIMEOUT
-                0x3ffe87cc        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87cc                memp_SYS_TIMEOUT
- .rodata.memp_IGMP_GROUP
-                0x3ffe87ce        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87ce                memp_IGMP_GROUP
- .rodata.memp_ARP_QUEUE
                 0x3ffe87d0        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87d0                memp_ARP_QUEUE
- .rodata.memp_REASSDATA
+                0x3ffe87d0                memp_PBUF_POOL
+ .rodata.memp_PBUF
                 0x3ffe87d2        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87d2                memp_REASSDATA
- .rodata.memp_TCP_SEG
+                0x3ffe87d2                memp_PBUF
+ .rodata.memp_SYS_TIMEOUT
                 0x3ffe87d4        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87d4                memp_TCP_SEG
- .rodata.memp_TCP_PCB_LISTEN
+                0x3ffe87d4                memp_SYS_TIMEOUT
+ .rodata.memp_IGMP_GROUP
                 0x3ffe87d6        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87d6                memp_TCP_PCB_LISTEN
- .rodata.memp_TCP_PCB
+                0x3ffe87d6                memp_IGMP_GROUP
+ .rodata.memp_ARP_QUEUE
                 0x3ffe87d8        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87d8                memp_TCP_PCB
- .rodata.memp_UDP_PCB
+                0x3ffe87d8                memp_ARP_QUEUE
+ .rodata.memp_REASSDATA
                 0x3ffe87da        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87da                memp_UDP_PCB
- .rodata.memp_RAW_PCB
+                0x3ffe87da                memp_REASSDATA
+ .rodata.memp_TCP_SEG
                 0x3ffe87dc        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
-                0x3ffe87dc                memp_RAW_PCB
- *fill*         0x3ffe87de        0x2 
+                0x3ffe87dc                memp_TCP_SEG
+ .rodata.memp_TCP_PCB_LISTEN
+                0x3ffe87de        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x3ffe87de                memp_TCP_PCB_LISTEN
+ .rodata.memp_TCP_PCB
+                0x3ffe87e0        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x3ffe87e0                memp_TCP_PCB
+ .rodata.memp_UDP_PCB
+                0x3ffe87e2        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x3ffe87e2                memp_UDP_PCB
+ .rodata.memp_RAW_PCB
+                0x3ffe87e4        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(memp.o)
+                0x3ffe87e4                memp_RAW_PCB
+ *fill*         0x3ffe87e6        0x2 
  .rodata.tcp_pcb_lists
-                0x3ffe87e0       0x10 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x3ffe87e0                tcp_pcb_lists
+                0x3ffe87e8       0x10 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x3ffe87e8                tcp_pcb_lists
  .rodata.tcp_persist_backoff
-                0x3ffe87f0        0x7 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x3ffe87f8        0x7 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
  .rodata.tcp_backoff
-                0x3ffe87f7        0xd C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x3ffe87ff        0xd C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
  .rodata.str1.1
-                0x3ffe8804        0x7 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
- *fill*         0x3ffe880b        0x1 
+                0x3ffe880c        0x7 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+ *fill*         0x3ffe8813        0x1 
  .rodata.dns_mquery_v4group
-                0x3ffe880c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
-                0x3ffe880c                dns_mquery_v4group
+                0x3ffe8814        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x3ffe8814                dns_mquery_v4group
  .rodata.dhcp_discover_request_options
-                0x3ffe8810        0x5 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
- *fill*         0x3ffe8815        0x3 
+                0x3ffe8818        0x5 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+ *fill*         0x3ffe881d        0x3 
  .rodata.ip_addr_broadcast
-                0x3ffe8818        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
-                0x3ffe8818                ip_addr_broadcast
+                0x3ffe8820        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
+                0x3ffe8820                ip_addr_broadcast
  .rodata.ip_addr_any
-                0x3ffe881c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
-                0x3ffe881c                ip_addr_any
+                0x3ffe8824        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_addr.o)
+                0x3ffe8824                ip_addr_any
  .rodata.str1.4
-                0x3ffe8820        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
+                0x3ffe8828        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
                                   0xc (size before relaxing)
  .rodata.str1.4
-                0x3ffe8824        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
+                0x3ffe882c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
                                   0xc (size before relaxing)
  .rodata._ZSt7nothrow
-                0x3ffe8828        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\libstdc++.a(new_handler.o)
-                0x3ffe8828                _ZSt7nothrow
+                0x3ffe8830        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\libstdc++.a(new_handler.o)
+                0x3ffe8830                _ZSt7nothrow
  .rodata.str1.1
-                0x3ffe8829        0xa C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfprintf_float.o)
+                0x3ffe8831        0xa C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfprintf_float.o)
                                  0x12 (size before relaxing)
  .rodata.str1.1
-                0x3ffe8833        0x5 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfscanf_float.o)
+                0x3ffe883b        0x5 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-nano-vfscanf_float.o)
  .rodata.str1.1
-                0x3ffe8838        0x5 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-strtod.o)
+                0x3ffe8840        0x5 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-strtod.o)
                                   0xc (size before relaxing)
  .rodata.str1.1
-                0x3ffe8838        0xd C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-dtoa.o)
+                0x3ffe8840        0xd C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-dtoa.o)
                                   0xf (size before relaxing)
  .rodata.str1.1
-                0x3ffe8845        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-impure.o)
+                0x3ffe884d        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-impure.o)
  .rodata.str1.1
-                0x3ffe8847        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-locale.o)
+                0x3ffe884f        0x6 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-locale.o)
                                   0xb (size before relaxing)
  .rodata.str1.1
-                0x3ffe884d       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-nano-svfprintf.o)
+                0x3ffe8855       0x11 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/libc/xtensa-lx106-elf/lib\libc.a(lib_a-nano-svfprintf.o)
  *(.gnu.linkonce.r.*)
  *(.rodata1)
-                0x3ffe885e                __XT_EXCEPTION_TABLE__ = ABSOLUTE (.)
+                0x3ffe8866                __XT_EXCEPTION_TABLE__ = ABSOLUTE (.)
  *(.xt_except_table)
  *(.gcc_except_table)
  *(.gnu.linkonce.e.*)
  *(.gnu.version_r)
  *(.eh_frame)
-                0x3ffe8860                . = ((. + 0x3) & 0xfffffffc)
- *fill*         0x3ffe885e        0x2 
-                0x3ffe8860                __init_array_start = ABSOLUTE (.)
+                0x3ffe8868                . = ((. + 0x3) & 0xfffffffc)
+ *fill*         0x3ffe8866        0x2 
+                0x3ffe8868                __init_array_start = ABSOLUTE (.)
  *crtbegin.o(.ctors)
  *(EXCLUDE_FILE(*crtend.o) .ctors)
- .ctors         0x3ffe8860        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
- .ctors         0x3ffe8864        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
- .ctors         0x3ffe8868        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
- .ctors         0x3ffe886c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rESP8266TimeTools.cpp.o
- .ctors         0x3ffe8870        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFi.cpp.o)
- .ctors         0x3ffe8874        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
- .ctors         0x3ffe8878        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiScan.cpp.o)
- .ctors         0x3ffe887c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
- .ctors         0x3ffe8880        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(IPAddress.cpp.o)
- .ctors         0x3ffe8884        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Updater.cpp.o)
- .ctors         0x3ffe8888        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WString.cpp.o)
- .ctors         0x3ffe888c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
+ .ctors         0x3ffe8868        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
+ .ctors         0x3ffe886c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
+ .ctors         0x3ffe8870        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+ .ctors         0x3ffe8874        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rESP8266TimeTools.cpp.o
+ .ctors         0x3ffe8878        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFi.cpp.o)
+ .ctors         0x3ffe887c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
+ .ctors         0x3ffe8880        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiScan.cpp.o)
+ .ctors         0x3ffe8884        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
+ .ctors         0x3ffe8888        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(IPAddress.cpp.o)
+ .ctors         0x3ffe888c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Updater.cpp.o)
+ .ctors         0x3ffe8890        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WString.cpp.o)
+ .ctors         0x3ffe8894        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
  *(SORT_BY_NAME(.ctors.*))
  *(.ctors)
-                0x3ffe8890                __init_array_end = ABSOLUTE (.)
+                0x3ffe8898                __init_array_end = ABSOLUTE (.)
  *crtbegin.o(.dtors)
  *(EXCLUDE_FILE(*crtend.o) .dtors)
- .dtors         0x3ffe8890        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
- .dtors         0x3ffe8894        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rESP8266TimeTools.cpp.o
- .dtors         0x3ffe8898        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
- .dtors         0x3ffe889c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiScan.cpp.o)
- .dtors         0x3ffe88a0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
- .dtors         0x3ffe88a4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Updater.cpp.o)
- .dtors         0x3ffe88a8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WString.cpp.o)
- .dtors         0x3ffe88ac        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
+ .dtors         0x3ffe8898        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+ .dtors         0x3ffe889c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rESP8266TimeTools.cpp.o
+ .dtors         0x3ffe88a0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
+ .dtors         0x3ffe88a4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiScan.cpp.o)
+ .dtors         0x3ffe88a8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
+ .dtors         0x3ffe88ac        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Updater.cpp.o)
+ .dtors         0x3ffe88b0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WString.cpp.o)
+ .dtors         0x3ffe88b4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
  *(SORT_BY_NAME(.dtors.*))
  *(.dtors)
-                0x3ffe88b0                __XT_EXCEPTION_DESCS__ = ABSOLUTE (.)
+                0x3ffe88b8                __XT_EXCEPTION_DESCS__ = ABSOLUTE (.)
  *(.xt_except_desc)
  *(.gnu.linkonce.h.*)
-                0x3ffe88b0                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
+                0x3ffe88b8                __XT_EXCEPTION_DESCS_END__ = ABSOLUTE (.)
  *(.xt_except_desc_end)
  *(.dynamic)
  *(.gnu.version_d)
-                0x3ffe88b0                . = ALIGN (0x4)
-                0x3ffe88b0                _bss_table_start = ABSOLUTE (.)
-                0x3ffe88b0        0x4 LONG 0x3ffe88b8 _bss_start
-                0x3ffe88b4        0x4 LONG 0x3ffeef18 _bss_end
-                0x3ffe88b8                _bss_table_end = ABSOLUTE (.)
-                0x3ffe88b8                _rodata_end = ABSOLUTE (.)
+                0x3ffe88b8                . = ALIGN (0x4)
+                0x3ffe88b8                _bss_table_start = ABSOLUTE (.)
+                0x3ffe88b8        0x4 LONG 0x3ffe88c0 _bss_start
+                0x3ffe88bc        0x4 LONG 0x3ffeef28 _bss_end
+                0x3ffe88c0                _bss_table_end = ABSOLUTE (.)
+                0x3ffe88c0                _rodata_end = ABSOLUTE (.)
 
-.bss            0x3ffe88b8     0x6660
-                0x3ffe88b8                . = ALIGN (0x8)
-                0x3ffe88b8                _bss_start = ABSOLUTE (.)
+.bss            0x3ffe88c0     0x6668
+                0x3ffe88c0                . = ALIGN (0x8)
+                0x3ffe88c0                _bss_start = ABSOLUTE (.)
  *(.dynsbss)
  *(.sbss)
  *(.sbss.*)
@@ -22921,600 +22920,601 @@ END GROUP
  *(.gnu.linkonce.sb2.*)
  *(.dynbss)
  *(.bss)
- .bss           0x3ffe88b8       0x38 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
- .bss           0x3ffe88f0      0x342 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
-                0x3ffe8908                pend_flag_noise_check
-                0x3ffe8910                pend_flag_periodic_cal
-                0x3ffe8928                idle_timer_reopen_flag
-                0x3ffe892a                dbg_stop_sw_wdt
-                0x3ffe892b                dbg_stop_hw_wdt
-                0x3ffe892d                total_buffed_eb_num
-                0x3ffe8930                freq_change_sta_scan
-                0x3ffe8944                test_freq_val_force_flag
-                0x3ffe8946                TestStaFreqCalValFilter
-                0x3ffe8948                PktsNumInOneChk
-                0x3ffe894c                AllFreqOffsetInOneChk
-                0x3ffe8950                AvgFreqOffsetInOneChk
-                0x3ffe8952                HighestFreqOffsetInOneChk
-                0x3ffe8954                LowestFreqOffsetInOneChk
-                0x3ffe8956                pktnum_sta_freqcal
-                0x3ffe8958                all_freqoffset_sta_freqcal
-                0x3ffe895a                avg_freqoffset_sta_freqcal
-                0x3ffe895c                DefFreqCalTimer
-                0x3ffe8970                PktNumInOneChk
-                0x3ffe8af0                buffed_eb_arr
- *fill*         0x3ffe8c32        0xe 
- .bss           0x3ffe8c40      0x100 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(rate_control.o)
- .bss           0x3ffe8d40      0x46c C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(trc.o)
- *fill*         0x3ffe91ac        0x4 
- .bss           0x3ffe91b0     0x2f88 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
-                0x3ffe91b0                wDevCtrl
-                0x3ffe9358                WdevTimOffSet
- *fill*         0x3ffec138        0x8 
- .bss           0x3ffec140      0xaa4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(esf_buf.o)
- *fill*         0x3ffecbe4        0xc 
- .bss           0x3ffecbf0       0x40 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(if_hwctrl.o)
-                0x3ffecbf0                interface_mask
-                0x3ffecc10                if_ctrl
- .bss           0x3ffecc30      0x150 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
-                0x3ffecc34                lmacConfMib
-                0x3ffecc58                our_tx_eb
- .bss           0x3ffecd80      0x13a C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
-                0x3ffecd80                pmc
- *fill*         0x3ffeceba        0x2 
- .bss           0x3ffecebc      0x6a8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211.o)
-                0x3ffecebc                g_ic
- .bss           0x3ffed564       0x49 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
-                0x3ffed564                BcnEb_update
-                0x3ffed571                BcnWithMcastSendStart
-                0x3ffed572                BcnWithMcastSendCnt
-                0x3ffed58c                PendFreeBcnEb
-                0x3ffed58e                ap_freq_force_to_scan
-                0x3ffed590                ApFreqCalTimer
-                0x3ffed5a4                APRecvBcnStartTick
- *fill*         0x3ffed5ad        0x3 
- .bss           0x3ffed5b0        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_output.o)
- .bss           0x3ffed5b4       0xcc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_scan.o)
-                0x3ffed5b4                gScanStruct
-                0x3ffed660                freq_change_check_softap_link_enable
-                0x3ffed661                FreqCalCntForScan
-                0x3ffed662                TestStaFreqCalValInput
-                0x3ffed664                TestStaFreqCalValDev
-                0x3ffed666                connect_scan_flag
-                0x3ffed667                auth_type
-                0x3ffed668                scannum
- .bss           0x3ffed680       0x28 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
- .bss           0x3ffed6a8       0x54 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_chm.o)
- *fill*         0x3ffed6fc        0x4 
- .bss           0x3ffed700      0x3ac C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_cnx.o)
-                0x3ffeda78                sta_con_timer
-                0x3ffeda8c                backup_ni_connect_status
-                0x3ffeda90                g_cnx_probe_rc_list_cb
-                0x3ffeda94                reconnect_flag
-                0x3ffeda95                no_ap_found_index
- *fill*         0x3ffedaac        0x4 
- .bss           0x3ffedab0       0x18 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_action_vendor.o)
- *fill*         0x3ffedac8        0x8 
- .bss           0x3ffedad0       0x60 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa_auth.o)
-                0x3ffedad4                resend_eapol
- .bss           0x3ffedb30      0x26a C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa.o)
- *fill*         0x3ffedd9a        0x2 
- .bss           0x3ffedd9c       0x45 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
-                0x3ffedda0                info
-                0x3ffeddc4                freq_trace_enable
-                0x3ffeddc6                lwip_timer_interval
-                0x3ffeddc8                check_timeouts_timer
-                0x3ffedddc                rf_cal_sec
-                0x3ffedde0                user_init_flag
- *fill*         0x3ffedde1        0x3 
- .bss           0x3ffedde4        0xc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(eagle_lwip_if.o)
-                0x3ffedde4                wifi_station_hostname
- .bss           0x3ffeddf0       0x30 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
-                0x3ffeddf0                dbg_timer_flag
-                0x3ffeddf4                timer_list
-                0x3ffeddf8                debug_timer
-                0x3ffeddfc                debug_timerfn
- .bss           0x3ffede20      0x252 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(user_interface.o)
-                0x3ffedf1e                protect_flag
-                0x3ffedf28                deep_sleep_flag
-                0x3ffedf29                cpu_overclock
-                0x3ffedf2c                event_cb
-                0x3ffedf30                status_led_output_level
-                0x3ffedf34                done_cb
-                0x3ffedf38                rst_if
-                0x3ffedf54                default_interface
-                0x3ffedf55                OpmodChgIsOnGoing
-                0x3ffedf58                promiscuous_cb
-                0x3ffedf70                event_TaskQueue
- *fill*         0x3ffee072        0xe 
- .bss           0x3ffee080      0x1c0 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(nmi-vector.o)
- .bss           0x3ffee240        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(spi_flash.o)
-                0x3ffee240                flash_read
- .bss           0x3ffee244       0x14 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\libgcc.a(unwind-dw2-fde.o)
- .bss           0x3ffee258        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy.o)
- .bss           0x3ffee25c        0x3 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_ana.o)
-                0x3ffee25c                or_pll_cap_last
-                0x3ffee25d                tout_dis_txpwr_track
-                0x3ffee25e                sleep_mode_flag
- *fill*         0x3ffee25f        0x1 
- .bss           0x3ffee260      0x15b C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6.o)
-                0x3ffee260                g_phyFuns
-                0x3ffee264                rxiq_compute_num
-                0x3ffee268                rx_table_renew_en
-                0x3ffee26c                check_result
-                0x3ffee270                chip6_sleep_params
-                0x3ffee304                chip6_phy_init_ctrl
-                0x3ffee378                phy_freq_offset
-                0x3ffee37a                do_pwctrl_flag
-                0x3ffee37b                txbk_dpdby_flag
-                0x3ffee37d                sw_scan_mode
-                0x3ffee37e                rxmax_ext_level
-                0x3ffee380                phy_rx_gain_dc_table
-                0x3ffee384                tx_data1
-                0x3ffee388                tx_data2
-                0x3ffee38c                tx_data3
-                0x3ffee390                tx_data4
-                0x3ffee394                periodic_cal_flag
-                0x3ffee395                bbpll_cal_flag
-                0x3ffee396                phy_in_most_power
-                0x3ffee397                init_rf_no_cal
-                0x3ffee398                test_print_time
-                0x3ffee39c                phy_in_vdd33_offset
-                0x3ffee39d                phy_set_most_tpw_disbg
-                0x3ffee39e                phy_set_most_tpw_index
-                0x3ffee3a0                adc_rand_noise
-                0x3ffee3a4                chan14_mic_en
-                0x3ffee3a5                chan14_mic_flag
-                0x3ffee3a6                phy_in_most_power_bk
-                0x3ffee3a7                phy_rx_gain_dc_flag
-                0x3ffee3a8                dpd_bypass_original
-                0x3ffee3aa                phy_txpwr_diff_flash
-                0x3ffee3b0                noise_array
- *fill*         0x3ffee3bb        0x1 
- .bss           0x3ffee3bc        0x9 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_cal.o)
-                0x3ffee3bc                phy_tx_power_out
-                0x3ffee3be                phy_tx_pwr_error
-                0x3ffee3c0                tx_pwctrl_track_num
-                0x3ffee3c1                rxiq_cover_fail_num
-                0x3ffee3c2                phy_meas_freq_offset
-                0x3ffee3c4                tx_pwctrl_pk_num
- *fill*         0x3ffee3c5        0x3 
- .bss           0x3ffee3c8        0x7 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_sleep.o)
-                0x3ffee3c8                periodic_cal_sat
-                0x3ffee3c9                rtc_cali_trig_en
-                0x3ffee3ca                lslp_mem_opt_8266
-                0x3ffee3cc                software_slp_reject
-                0x3ffee3cd                SDIO_slp_reject
-                0x3ffee3ce                hardware_reject
- *fill*         0x3ffee3cf        0x1 
- .bss           0x3ffee3d0        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_crypto_tkip.o)
+ .bss           0x3ffe88c0       0x38 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm_for_bcn_only_mode.o)
+ *fill*         0x3ffe88f8        0x8 
+ .bss           0x3ffe8900      0x342 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pp.o)
+                0x3ffe8918                pend_flag_noise_check
+                0x3ffe8920                pend_flag_periodic_cal
+                0x3ffe8938                idle_timer_reopen_flag
+                0x3ffe893a                dbg_stop_sw_wdt
+                0x3ffe893b                dbg_stop_hw_wdt
+                0x3ffe893d                total_buffed_eb_num
+                0x3ffe8940                freq_change_sta_scan
+                0x3ffe8954                test_freq_val_force_flag
+                0x3ffe8956                TestStaFreqCalValFilter
+                0x3ffe8958                PktsNumInOneChk
+                0x3ffe895c                AllFreqOffsetInOneChk
+                0x3ffe8960                AvgFreqOffsetInOneChk
+                0x3ffe8962                HighestFreqOffsetInOneChk
+                0x3ffe8964                LowestFreqOffsetInOneChk
+                0x3ffe8966                pktnum_sta_freqcal
+                0x3ffe8968                all_freqoffset_sta_freqcal
+                0x3ffe896a                avg_freqoffset_sta_freqcal
+                0x3ffe896c                DefFreqCalTimer
+                0x3ffe8980                PktNumInOneChk
+                0x3ffe8b00                buffed_eb_arr
+ *fill*         0x3ffe8c42        0xe 
+ .bss           0x3ffe8c50      0x100 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(rate_control.o)
+ .bss           0x3ffe8d50      0x46c C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(trc.o)
+ *fill*         0x3ffe91bc        0x4 
+ .bss           0x3ffe91c0     0x2f88 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(wdev.o)
+                0x3ffe91c0                wDevCtrl
+                0x3ffe9368                WdevTimOffSet
+ *fill*         0x3ffec148        0x8 
+ .bss           0x3ffec150      0xaa4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(esf_buf.o)
+ *fill*         0x3ffecbf4        0xc 
+ .bss           0x3ffecc00       0x40 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(if_hwctrl.o)
+                0x3ffecc00                interface_mask
+                0x3ffecc20                if_ctrl
+ .bss           0x3ffecc40      0x150 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(lmac.o)
+                0x3ffecc44                lmacConfMib
+                0x3ffecc68                our_tx_eb
+ .bss           0x3ffecd90      0x13a C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libpp.a(pm.o)
+                0x3ffecd90                pmc
+ *fill*         0x3ffececa        0x2 
+ .bss           0x3ffececc      0x6a8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211.o)
+                0x3ffececc                g_ic
+ .bss           0x3ffed574       0x49 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_hostap.o)
+                0x3ffed574                BcnEb_update
+                0x3ffed581                BcnWithMcastSendStart
+                0x3ffed582                BcnWithMcastSendCnt
+                0x3ffed59c                PendFreeBcnEb
+                0x3ffed59e                ap_freq_force_to_scan
+                0x3ffed5a0                ApFreqCalTimer
+                0x3ffed5b4                APRecvBcnStartTick
+ *fill*         0x3ffed5bd        0x3 
+ .bss           0x3ffed5c0        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_output.o)
+ .bss           0x3ffed5c4       0xcc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_scan.o)
+                0x3ffed5c4                gScanStruct
+                0x3ffed670                freq_change_check_softap_link_enable
+                0x3ffed671                FreqCalCntForScan
+                0x3ffed672                TestStaFreqCalValInput
+                0x3ffed674                TestStaFreqCalValDev
+                0x3ffed676                connect_scan_flag
+                0x3ffed677                auth_type
+                0x3ffed678                scannum
+ .bss           0x3ffed690       0x28 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_sta.o)
+ .bss           0x3ffed6b8       0x54 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_chm.o)
+ *fill*         0x3ffed70c        0x4 
+ .bss           0x3ffed710      0x3ac C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(wl_cnx.o)
+                0x3ffeda88                sta_con_timer
+                0x3ffeda9c                backup_ni_connect_status
+                0x3ffedaa0                g_cnx_probe_rc_list_cb
+                0x3ffedaa4                reconnect_flag
+                0x3ffedaa5                no_ap_found_index
+ *fill*         0x3ffedabc        0x4 
+ .bss           0x3ffedac0       0x18 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_action_vendor.o)
+ *fill*         0x3ffedad8        0x8 
+ .bss           0x3ffedae0       0x60 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa_auth.o)
+                0x3ffedae4                resend_eapol
+ .bss           0x3ffedb40      0x26a C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libwpa.a(wpa.o)
+ *fill*         0x3ffeddaa        0x2 
+ .bss           0x3ffeddac       0x45 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(app_main.o)
+                0x3ffeddb0                info
+                0x3ffeddd4                freq_trace_enable
+                0x3ffeddd6                lwip_timer_interval
+                0x3ffeddd8                check_timeouts_timer
+                0x3ffeddec                rf_cal_sec
+                0x3ffeddf0                user_init_flag
+ *fill*         0x3ffeddf1        0x3 
+ .bss           0x3ffeddf4        0xc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(eagle_lwip_if.o)
+                0x3ffeddf4                wifi_station_hostname
+ .bss           0x3ffede00       0x30 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(ets_timer.o)
+                0x3ffede00                dbg_timer_flag
+                0x3ffede04                timer_list
+                0x3ffede08                debug_timer
+                0x3ffede0c                debug_timerfn
+ .bss           0x3ffede30      0x252 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(user_interface.o)
+                0x3ffedf2e                protect_flag
+                0x3ffedf38                deep_sleep_flag
+                0x3ffedf39                cpu_overclock
+                0x3ffedf3c                event_cb
+                0x3ffedf40                status_led_output_level
+                0x3ffedf44                done_cb
+                0x3ffedf48                rst_if
+                0x3ffedf64                default_interface
+                0x3ffedf65                OpmodChgIsOnGoing
+                0x3ffedf68                promiscuous_cb
+                0x3ffedf80                event_TaskQueue
+ *fill*         0x3ffee082        0xe 
+ .bss           0x3ffee090      0x1c0 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(nmi-vector.o)
+ .bss           0x3ffee250        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libmain.a(spi_flash.o)
+                0x3ffee250                flash_read
+ .bss           0x3ffee254       0x14 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\libgcc.a(unwind-dw2-fde.o)
+ .bss           0x3ffee268        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy.o)
+ .bss           0x3ffee26c        0x3 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_ana.o)
+                0x3ffee26c                or_pll_cap_last
+                0x3ffee26d                tout_dis_txpwr_track
+                0x3ffee26e                sleep_mode_flag
+ *fill*         0x3ffee26f        0x1 
+ .bss           0x3ffee270      0x15b C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6.o)
+                0x3ffee270                g_phyFuns
+                0x3ffee274                rxiq_compute_num
+                0x3ffee278                rx_table_renew_en
+                0x3ffee27c                check_result
+                0x3ffee280                chip6_sleep_params
+                0x3ffee314                chip6_phy_init_ctrl
+                0x3ffee388                phy_freq_offset
+                0x3ffee38a                do_pwctrl_flag
+                0x3ffee38b                txbk_dpdby_flag
+                0x3ffee38d                sw_scan_mode
+                0x3ffee38e                rxmax_ext_level
+                0x3ffee390                phy_rx_gain_dc_table
+                0x3ffee394                tx_data1
+                0x3ffee398                tx_data2
+                0x3ffee39c                tx_data3
+                0x3ffee3a0                tx_data4
+                0x3ffee3a4                periodic_cal_flag
+                0x3ffee3a5                bbpll_cal_flag
+                0x3ffee3a6                phy_in_most_power
+                0x3ffee3a7                init_rf_no_cal
+                0x3ffee3a8                test_print_time
+                0x3ffee3ac                phy_in_vdd33_offset
+                0x3ffee3ad                phy_set_most_tpw_disbg
+                0x3ffee3ae                phy_set_most_tpw_index
+                0x3ffee3b0                adc_rand_noise
+                0x3ffee3b4                chan14_mic_en
+                0x3ffee3b5                chan14_mic_flag
+                0x3ffee3b6                phy_in_most_power_bk
+                0x3ffee3b7                phy_rx_gain_dc_flag
+                0x3ffee3b8                dpd_bypass_original
+                0x3ffee3ba                phy_txpwr_diff_flash
+                0x3ffee3c0                noise_array
+ *fill*         0x3ffee3cb        0x1 
+ .bss           0x3ffee3cc        0x9 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_chip_v6_cal.o)
+                0x3ffee3cc                phy_tx_power_out
+                0x3ffee3ce                phy_tx_pwr_error
+                0x3ffee3d0                tx_pwctrl_track_num
+                0x3ffee3d1                rxiq_cover_fail_num
+                0x3ffee3d2                phy_meas_freq_offset
+                0x3ffee3d4                tx_pwctrl_pk_num
+ *fill*         0x3ffee3d5        0x3 
+ .bss           0x3ffee3d8        0x7 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libphy.a(phy_sleep.o)
+                0x3ffee3d8                periodic_cal_sat
+                0x3ffee3d9                rtc_cali_trig_en
+                0x3ffee3da                lslp_mem_opt_8266
+                0x3ffee3dc                software_slp_reject
+                0x3ffee3dd                SDIO_slp_reject
+                0x3ffee3de                hardware_reject
+ *fill*         0x3ffee3df        0x1 
+ .bss           0x3ffee3e0        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib/NONOSDK22x_190703\libnet80211.a(ieee80211_crypto_tkip.o)
  *(.bss.*)
  .bss._ZN3B4R11StackMemory2cpE
-                0x3ffee3d8        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
-                0x3ffee3d8                _ZN3B4R11StackMemory2cpE
- *fill*         0x3ffee3da        0x2 
+                0x3ffee3e8        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
+                0x3ffee3e8                _ZN3B4R11StackMemory2cpE
+ *fill*         0x3ffee3ea        0x2 
  .bss._ZN3B4R11StackMemory6bufferE
-                0x3ffee3dc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
-                0x3ffee3dc                _ZN3B4R11StackMemory6bufferE
- .bss._ZN3B4R9B4RString5EMPTYE
-                0x3ffee3e0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
-                0x3ffee3e0                _ZN3B4R9B4RString5EMPTYE
- .bss._ZN3B4RL8be_emptyE
-                0x3ffee3e4        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
- .bss._ZN3B4R3__cE
                 0x3ffee3ec        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
-                0x3ffee3ec                _ZN3B4R3__cE
+                0x3ffee3ec                _ZN3B4R11StackMemory6bufferE
+ .bss._ZN3B4R9B4RString5EMPTYE
+                0x3ffee3f0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
+                0x3ffee3f0                _ZN3B4R9B4RString5EMPTYE
+ .bss._ZN3B4RL8be_emptyE
+                0x3ffee3f4        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
+ .bss._ZN3B4R3__cE
+                0x3ffee3fc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\B4RCore.cpp.o
+                0x3ffee3fc                _ZN3B4R3__cE
  .bss._ZN3B4R7pollersE
-                0x3ffee3f0        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
-                0x3ffee3f0                _ZN3B4R7pollersE
+                0x3ffee400        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
+                0x3ffee400                _ZN3B4R7pollersE
  .bss._ZN3B4R9schedulerE
-                0x3ffee3f8        0xc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
-                0x3ffee3f8                _ZN3B4R9schedulerE
+                0x3ffee408        0xc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
+                0x3ffee408                _ZN3B4R9schedulerE
  .bss._ZN3B4R10PollerList12interruptFncE
-                0x3ffee404        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
-                0x3ffee404                _ZN3B4R10PollerList12interruptFncE
+                0x3ffee414        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\Scheduler.cpp.o
+                0x3ffee414                _ZN3B4R10PollerList12interruptFncE
  .bss._ZL11be_gann14_3
-                0x3ffee408       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee418       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
  .bss._ZL11be_gann13_5
-                0x3ffee424        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee434        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
  .bss._ZL11be_gann12_3
-                0x3ffee42c        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
- *fill*         0x3ffee42d        0x3 
+                0x3ffee43c        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+ *fill*         0x3ffee43d        0x3 
  .bss._ZL11be_gann10_5
-                0x3ffee430        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
- .bss._ZL10be_gann9_5
-                0x3ffee438        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
- .bss._ZL10be_gann7_5
                 0x3ffee440        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+ .bss._ZL10be_gann9_5
+                0x3ffee448        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+ .bss._ZL10be_gann7_5
+                0x3ffee450        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
  .bss._ZL10be_gann6_3
-                0x3ffee448       0xdc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee458       0xdc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
  .bss._ZL10be_gann5_3
-                0x3ffee524      0x100 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee534      0x100 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
  .bss._ZL10be_gann4_3
-                0x3ffee624        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
- *fill*         0x3ffee625        0x3 
+                0x3ffee634        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+ *fill*         0x3ffee635        0x3 
  .bss._ZL10be_gann2_3
-                0x3ffee628        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee638        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
  .bss._ZL10be_gann1_3
-                0x3ffee630        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee640        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
  .bss._ZN8b4r_main10_timestampE
-                0x3ffee638        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee638                _ZN8b4r_main10_timestampE
+                0x3ffee648        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee648                _ZN8b4r_main10_timestampE
  .bss._ZN8b4r_main8_timelibE
-                0x3ffee63c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee63c                _ZN8b4r_main8_timelibE
- .bss._ZN8b4r_main9_hostnameE
-                0x3ffee640        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee640                _ZN8b4r_main9_hostnameE
- .bss._ZN8b4r_main4_espE
-                0x3ffee644        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee644                _ZN8b4r_main4_espE
- .bss._ZN8b4r_main12_readvoltageE
-                0x3ffee648        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee648                _ZN8b4r_main12_readvoltageE
- *fill*         0x3ffee64a        0x2 
- .bss._ZN8b4r_main13_wifipasswordE
                 0x3ffee64c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee64c                _ZN8b4r_main13_wifipasswordE
- .bss._ZN8b4r_main9_wifissidE
+                0x3ffee64c                _ZN8b4r_main8_timelibE
+ .bss._ZN8b4r_main9_hostnameE
                 0x3ffee650        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee650                _ZN8b4r_main9_wifissidE
- .bss._ZN8b4r_main9_mqttportE
-                0x3ffee654        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee654                _ZN8b4r_main9_mqttportE
- *fill*         0x3ffee656        0x2 
- .bss._ZN8b4r_main13_mqtthostnameE
-                0x3ffee658        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee658                _ZN8b4r_main13_mqtthostnameE
- .bss._ZN8b4r_main5_mqttE
+                0x3ffee650                _ZN8b4r_main9_hostnameE
+ .bss._ZN8b4r_main4_espE
+                0x3ffee654        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee654                _ZN8b4r_main4_espE
+ .bss._ZN8b4r_main12_readvoltageE
+                0x3ffee658        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee658                _ZN8b4r_main12_readvoltageE
+ *fill*         0x3ffee65a        0x2 
+ .bss._ZN8b4r_main13_wifipasswordE
                 0x3ffee65c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee65c                _ZN8b4r_main5_mqttE
- .bss._ZN8b4r_main8_wifistrE
+                0x3ffee65c                _ZN8b4r_main13_wifipasswordE
+ .bss._ZN8b4r_main9_wifissidE
                 0x3ffee660        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee660                _ZN8b4r_main8_wifistrE
- .bss._ZN8b4r_main5_wifiE
-                0x3ffee664        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee664                _ZN8b4r_main5_wifiE
- .bss._ZN8b4r_main13_mq7pinnumberE
-                0x3ffee668        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee668                _ZN8b4r_main13_mq7pinnumberE
- *fill*         0x3ffee669        0x3 
- .bss._ZN8b4r_main7_mq7pinE
+                0x3ffee660                _ZN8b4r_main9_wifissidE
+ .bss._ZN8b4r_main9_mqttportE
+                0x3ffee664        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee664                _ZN8b4r_main9_mqttportE
+ *fill*         0x3ffee666        0x2 
+ .bss._ZN8b4r_main13_mqtthostnameE
+                0x3ffee668        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee668                _ZN8b4r_main13_mqtthostnameE
+ .bss._ZN8b4r_main5_mqttE
                 0x3ffee66c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee66c                _ZN8b4r_main7_mq7pinE
- .bss._ZN8b4r_main8_serial1E
+                0x3ffee66c                _ZN8b4r_main5_mqttE
+ .bss._ZN8b4r_main8_wifistrE
                 0x3ffee670        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
-                0x3ffee670                _ZN8b4r_main8_serial1E
+                0x3ffee670                _ZN8b4r_main8_wifistrE
+ .bss._ZN8b4r_main5_wifiE
+                0x3ffee674        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee674                _ZN8b4r_main5_wifiE
+ .bss._ZN8b4r_main13_mq7pinnumberE
+                0x3ffee678        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee678                _ZN8b4r_main13_mq7pinnumberE
+ *fill*         0x3ffee679        0x3 
+ .bss._ZN8b4r_main7_mq7pinE
+                0x3ffee67c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee67c                _ZN8b4r_main7_mq7pinE
+ .bss._ZN8b4r_main8_serial1E
+                0x3ffee680        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\b4r_main.cpp.o
+                0x3ffee680                _ZN8b4r_main8_serial1E
  .bss._ZN3B4R3udpE
-                0x3ffee674       0x18 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rESP8266TimeTools.cpp.o
-                0x3ffee674                _ZN3B4R3udpE
+                0x3ffee684       0x18 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rESP8266TimeTools.cpp.o
+                0x3ffee684                _ZN3B4R3udpE
  .bss._ZN3B4R10MqttClient8instanceE
-                0x3ffee68c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rMQTT.cpp.o
-                0x3ffee68c                _ZN3B4R10MqttClient8instanceE
- .bss.WiFi      0x3ffee690        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFi.cpp.o)
-                0x3ffee690                WiFi
+                0x3ffee69c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\sketch\rMQTT.cpp.o
+                0x3ffee69c                _ZN3B4R10MqttClient8instanceE
+ .bss.WiFi      0x3ffee6a0        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFi.cpp.o)
+                0x3ffee6a0                WiFi
  .bss._ZL19_dns_lookup_pending
-                0x3ffee691        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
- *fill*         0x3ffee692        0x2 
- .bss._ZN23ESP8266WiFiGenericClass19_forceSleepLastModeE
-                0x3ffee694        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
-                0x3ffee694                _ZN23ESP8266WiFiGenericClass19_forceSleepLastModeE
- .bss._ZL12sCbEventList
-                0x3ffee698        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
- .bss._ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
-                0x3ffee6a0        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
-                0x3ffee6a0                _ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
- .bss._ZN19ESP8266WiFiSTAClass12_useStaticIpE
-                0x3ffee6a1        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
-                0x3ffee6a1                _ZN19ESP8266WiFiSTAClass12_useStaticIpE
+                0x3ffee6a1        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
  *fill*         0x3ffee6a2        0x2 
+ .bss._ZN23ESP8266WiFiGenericClass19_forceSleepLastModeE
+                0x3ffee6a4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
+                0x3ffee6a4                _ZN23ESP8266WiFiGenericClass19_forceSleepLastModeE
+ .bss._ZL12sCbEventList
+                0x3ffee6a8        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiGeneric.cpp.o)
+ .bss._ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
+                0x3ffee6b0        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
+                0x3ffee6b0                _ZN19ESP8266WiFiSTAClass15_useInsecureWEPE
+ .bss._ZN19ESP8266WiFiSTAClass12_useStaticIpE
+                0x3ffee6b1        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiSTA.cpp.o)
+                0x3ffee6b1                _ZN19ESP8266WiFiSTAClass12_useStaticIpE
+ *fill*         0x3ffee6b2        0x2 
  .bss._ZN20ESP8266WiFiScanClass11_onCompleteE
-                0x3ffee6a4       0x10 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiScan.cpp.o)
-                0x3ffee6a4                _ZN20ESP8266WiFiScanClass11_onCompleteE
+                0x3ffee6b4       0x10 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(ESP8266WiFiScan.cpp.o)
+                0x3ffee6b4                _ZN20ESP8266WiFiScanClass11_onCompleteE
  .bss._ZN5SListI10WiFiClientE8_s_firstE
-                0x3ffee6b4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
-                0x3ffee6b4                _ZN5SListI10WiFiClientE8_s_firstE
+                0x3ffee6c4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x3ffee6c4                _ZN5SListI10WiFiClientE8_s_firstE
  .bss._ZL11defaultSync
-                0x3ffee6b8        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x3ffee6c8        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
  .bss._ZL14defaultNoDelay
-                0x3ffee6b9        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x3ffee6c9        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
  .bss._ZN10WiFiClient10_localPortE
-                0x3ffee6ba        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
-                0x3ffee6ba                _ZN10WiFiClient10_localPortE
+                0x3ffee6ca        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiClient.cpp.o)
+                0x3ffee6ca                _ZN10WiFiClient10_localPortE
  .bss._ZN5SListI7WiFiUDPE8_s_firstE
-                0x3ffee6bc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiUdp.cpp.o)
-                0x3ffee6bc                _ZN5SListI7WiFiUDPE8_s_firstE
+                0x3ffee6cc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\ESP8266WiFi\ESP8266WiFi.a(WiFiUdp.cpp.o)
+                0x3ffee6cc                _ZN5SListI7WiFiUDPE8_s_firstE
  .bss._ZZN13EasyNTPClient13getServerTimeEvE9udpInited
-                0x3ffee6c0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\EasyNTPClient.cpp.o
- *fill*         0x3ffee6c4        0x4 
+                0x3ffee6d0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\EasyNTPClient.cpp.o
+ *fill*         0x3ffee6d4        0x4 
  .bss._ZGVZN13EasyNTPClient13getServerTimeEvE9udpInited
-                0x3ffee6c8        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\EasyNTPClient.cpp.o
+                0x3ffee6d8        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\EasyNTPClient.cpp.o
  .bss._ZL9cacheTime
-                0x3ffee6d0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\Time.cpp.o
- .bss._ZL2tm    0x3ffee6d4        0x7 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\Time.cpp.o
- .bss.ESP       0x3ffee6db        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Esp.cpp.o)
-                0x3ffee6db                ESP
- .bss.Serial1   0x3ffee6dc       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
-                0x3ffee6dc                Serial1
- .bss.Serial    0x3ffee6f8       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
-                0x3ffee6f8                Serial
+                0x3ffee6e0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\Time.cpp.o
+ .bss._ZL2tm    0x3ffee6e4        0x7 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\libraries\TimeLib\Time.cpp.o
+ .bss.ESP       0x3ffee6eb        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Esp.cpp.o)
+                0x3ffee6eb                ESP
+ .bss.Serial1   0x3ffee6ec       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
+                0x3ffee6ec                Serial1
+ .bss.Serial    0x3ffee708       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(HardwareSerial.cpp.o)
+                0x3ffee708                Serial
  .bss.INADDR_NONE
-                0x3ffee714        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(IPAddress.cpp.o)
-                0x3ffee714                INADDR_NONE
+                0x3ffee724        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(IPAddress.cpp.o)
+                0x3ffee724                INADDR_NONE
  .bss.INADDR_ANY
-                0x3ffee71c        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(IPAddress.cpp.o)
-                0x3ffee71c                INADDR_ANY
+                0x3ffee72c        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(IPAddress.cpp.o)
+                0x3ffee72c                INADDR_ANY
  .bss.stack_thunk_save
-                0x3ffee724        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(StackThunk.cpp.o)
-                0x3ffee724                stack_thunk_save
+                0x3ffee734        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(StackThunk.cpp.o)
+                0x3ffee734                stack_thunk_save
  .bss.stack_thunk_top
-                0x3ffee728        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(StackThunk.cpp.o)
-                0x3ffee728                stack_thunk_top
+                0x3ffee738        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(StackThunk.cpp.o)
+                0x3ffee738                stack_thunk_top
  .bss.stack_thunk_ptr
-                0x3ffee72c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(StackThunk.cpp.o)
-                0x3ffee72c                stack_thunk_ptr
- .bss.Update    0x3ffee730       0xb4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Updater.cpp.o)
-                0x3ffee730                Update
+                0x3ffee73c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(StackThunk.cpp.o)
+                0x3ffee73c                stack_thunk_ptr
+ .bss.Update    0x3ffee740       0xb4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Updater.cpp.o)
+                0x3ffee740                Update
  .bss._ZL18s_randomSeedCalled
-                0x3ffee7e4        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WMath.cpp.o)
- *fill*         0x3ffee7e5        0x3 
- .bss.emptyString
-                0x3ffee7e8        0xc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WString.cpp.o)
-                0x3ffee7e8                emptyString
- .bss._ZZL12loop_wrappervE10setup_done
-                0x3ffee7f4        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+                0x3ffee7f4        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WMath.cpp.o)
  *fill*         0x3ffee7f5        0x3 
+ .bss.emptyString
+                0x3ffee7f8        0xc C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(WString.cpp.o)
+                0x3ffee7f8                emptyString
+ .bss._ZZL12loop_wrappervE10setup_done
+                0x3ffee804        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+ *fill*         0x3ffee805        0x3 
  .bss._ZZL15do_global_ctorsvE2ob
-                0x3ffee7f8       0x28 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+                0x3ffee808       0x28 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
  .bss._ZL23ets_intr_lock_stack_ptr
-                0x3ffee820        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
- *fill*         0x3ffee821        0x1 
+                0x3ffee830        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+ *fill*         0x3ffee831        0x1 
  .bss._ZL19ets_intr_lock_stack
-                0x3ffee822        0xe C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+                0x3ffee832        0xe C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
  .bss._ZL22s_micros_at_task_start
-                0x3ffee830        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+                0x3ffee840        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
  .bss._ZL12s_loop_queue
-                0x3ffee834        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+                0x3ffee844        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
  .bss.resetInfo
-                0x3ffee83c       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
-                0x3ffee83c                resetInfo
+                0x3ffee84c       0x1c C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_main.cpp.o)
+                0x3ffee84c                resetInfo
  .bss._ZL15spoof_init_data
-                0x3ffee858        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_phy.cpp.o)
- *fill*         0x3ffee859        0x3 
+                0x3ffee868        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_phy.cpp.o)
+ *fill*         0x3ffee869        0x3 
  .bss._ZL19s_user_reset_reason
-                0x3ffee85c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL21s_unhandled_exception
-                0x3ffee860        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL14s_abort_called
-                0x3ffee864        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
- *fill*         0x3ffee865        0x3 
- .bss._ZL12s_panic_what
-                0x3ffee868        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL12s_panic_func
                 0x3ffee86c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
- .bss._ZL12s_panic_line
+ .bss._ZL21s_unhandled_exception
                 0x3ffee870        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
+ .bss._ZL14s_abort_called
+                0x3ffee874        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
+ *fill*         0x3ffee875        0x3 
+ .bss._ZL12s_panic_what
+                0x3ffee878        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
+ .bss._ZL12s_panic_func
+                0x3ffee87c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
+ .bss._ZL12s_panic_line
+                0x3ffee880        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
  .bss._ZL12s_panic_file
-                0x3ffee874        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
+                0x3ffee884        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_postmortem.cpp.o)
  .bss._ZL21micros_overflow_count
-                0x3ffee878        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
+                0x3ffee888        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
  .bss._ZL28micros_at_last_overflow_tick
-                0x3ffee87c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
+                0x3ffee88c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
  .bss._ZL21micros_overflow_timer
-                0x3ffee880       0x14 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
+                0x3ffee890       0x14 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
  .bss._ZL11delay_timer
-                0x3ffee894       0x14 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
+                0x3ffee8a4       0x14 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring.cpp.o)
  .bss._ZL9analogMap
-                0x3ffee8a8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring_pwm.cpp.o)
+                0x3ffee8b8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_wiring_pwm.cpp.o)
  .bss.umm_last_fail_alloc_size
-                0x3ffee8ac        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(heap.cpp.o)
-                0x3ffee8ac                umm_last_fail_alloc_size
+                0x3ffee8bc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(heap.cpp.o)
+                0x3ffee8bc                umm_last_fail_alloc_size
  .bss.umm_last_fail_alloc_addr
-                0x3ffee8b0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(heap.cpp.o)
-                0x3ffee8b0                umm_last_fail_alloc_addr
+                0x3ffee8c0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(heap.cpp.o)
+                0x3ffee8c0                umm_last_fail_alloc_addr
  .bss._ZL15s_uart_debug_nr
-                0x3ffee8b4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(uart.cpp.o)
- .bss.ummStats  0x3ffee8b8        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(umm_malloc.cpp.o)
-                0x3ffee8b8                ummStats
+                0x3ffee8c4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(uart.cpp.o)
+ .bss.ummStats  0x3ffee8c8        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(umm_malloc.cpp.o)
+                0x3ffee8c8                ummStats
  .bss.umm_numblocks
-                0x3ffee8c0        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(umm_malloc.cpp.o)
-                0x3ffee8c0                umm_numblocks
- *fill*         0x3ffee8c2        0x2 
- .bss.umm_heap  0x3ffee8c4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(umm_malloc.cpp.o)
-                0x3ffee8c4                umm_heap
+                0x3ffee8d0        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(umm_malloc.cpp.o)
+                0x3ffee8d0                umm_numblocks
+ *fill*         0x3ffee8d2        0x2 
+ .bss.umm_heap  0x3ffee8d4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(umm_malloc.cpp.o)
+                0x3ffee8d4                umm_heap
  .bss._ZZ33run_scheduled_recurrent_functionsvE5fence
-                0x3ffee8c8        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
- *fill*         0x3ffee8c9        0x3 
+                0x3ffee8d8        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
+ *fill*         0x3ffee8d9        0x3 
  .bss._ZL5rLast
-                0x3ffee8cc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
- .bss._ZL6rFirst
-                0x3ffee8d0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
- .bss._ZL7sUnused
-                0x3ffee8d4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
- .bss._ZL5sLast
-                0x3ffee8d8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
- .bss._ZL6sFirst
                 0x3ffee8dc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
+ .bss._ZL6rFirst
+                0x3ffee8e0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
+ .bss._ZL7sUnused
+                0x3ffee8e4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
+ .bss._ZL5sLast
+                0x3ffee8e8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
+ .bss._ZL6sFirst
+                0x3ffee8ec        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(Schedule.cpp.o)
  .bss._ZL14timer1_user_cb
-                0x3ffee8e0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_timer.cpp.o)
+                0x3ffee8f0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_timer.cpp.o)
  .bss._ZZ15timer1InterruptE6endPin
-                0x3ffee8e4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
- .bss._ZZ15timer1InterruptE8startPin
-                0x3ffee8e8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
- .bss._ZL12timerRunning
-                0x3ffee8ec        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
- *fill*         0x3ffee8ed        0x3 
- .bss._ZL8timer1CB
-                0x3ffee8f0        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
- .bss._ZL17waveformToDisable
                 0x3ffee8f4        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
- .bss._ZL16waveformToEnable
+ .bss._ZZ15timer1InterruptE8startPin
                 0x3ffee8f8        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
- .bss._ZL15waveformEnabled
-                0x3ffee8fc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
- .bss._ZL13waveformState
+ .bss._ZL12timerRunning
+                0x3ffee8fc        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
+ *fill*         0x3ffee8fd        0x3 
+ .bss._ZL8timer1CB
                 0x3ffee900        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
+ .bss._ZL17waveformToDisable
+                0x3ffee904        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
+ .bss._ZL16waveformToEnable
+                0x3ffee908        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
+ .bss._ZL15waveformEnabled
+                0x3ffee90c        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
+ .bss._ZL13waveformState
+                0x3ffee910        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
  .bss._ZL8waveform
-                0x3ffee904      0x110 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
+                0x3ffee914      0x110 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(core_esp8266_waveform.cpp.o)
  .bss.pbuf_wrapper_head
-                0x3ffeea14        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffeea24        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .bss.netif_esp
-                0x3ffeea18        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffeea28        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
  .bss.phy_capture
-                0x3ffeea20        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
-                0x3ffeea20                phy_capture
- .bss.renew     0x3ffeea24        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
- *fill*         0x3ffeea25        0x3 
- .bss.plist     0x3ffeea28        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+                0x3ffeea30        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffeea30                phy_capture
+ .bss.renew     0x3ffeea34        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+ *fill*         0x3ffeea35        0x3 
+ .bss.plist     0x3ffeea38        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
  .bss.dhcps_lease
-                0x3ffeea2c        0xc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+                0x3ffeea3c        0xc C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
  .bss.dns_address
-                0x3ffeea38        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
- .bss.client_address
-                0x3ffeea3c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
- .bss.server_address
-                0x3ffeea40        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
- .bss.broadcast_dhcps
-                0x3ffeea44        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
- .bss.pcb_dhcps
                 0x3ffeea48        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+ .bss.client_address
+                0x3ffeea4c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+ .bss.server_address
+                0x3ffeea50        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+ .bss.broadcast_dhcps
+                0x3ffeea54        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
+ .bss.pcb_dhcps
+                0x3ffeea58        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(esp-dhcpserver.o)
  .bss.tcp_timer_ctr
-                0x3ffeea4c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x3ffeea5c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
  .bss.tcp_timer
-                0x3ffeea4d        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
- *fill*         0x3ffeea4e        0x2 
+                0x3ffeea5d        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+ *fill*         0x3ffeea5e        0x2 
  .bss.dns_servers
-                0x3ffeea50        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x3ffeea60        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
  .bss.dns_requests
-                0x3ffeea58       0x18 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x3ffeea68       0x18 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
  .bss.dns_table
-                0x3ffeea70      0x1b0 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+                0x3ffeea80      0x1b0 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
  .bss.dns_seqno
-                0x3ffeec20        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
- *fill*         0x3ffeec21        0x3 
- .bss.dns_pcbs  0x3ffeec24        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
- .bss.dns_txid  0x3ffeec28        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
- *fill*         0x3ffeec2a        0x2 
+                0x3ffeec30        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+ *fill*         0x3ffeec31        0x3 
+ .bss.dns_pcbs  0x3ffeec34        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+ .bss.dns_txid  0x3ffeec38        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dns.o)
+ *fill*         0x3ffeec3a        0x2 
  .bss.tcpip_tcp_timer_active
-                0x3ffeec2c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
+                0x3ffeec3c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
  .bss.current_timeout_due_time
-                0x3ffeec30        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
+                0x3ffeec40        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
  .bss.next_timeout
-                0x3ffeec34        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
+                0x3ffeec44        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(timeouts.o)
  .bss.recv_data
-                0x3ffeec38        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x3ffeec48        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.recv_flags
-                0x3ffeec3c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.flags     0x3ffeec3d        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.tcplen    0x3ffeec3e        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x3ffeec4c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.flags     0x3ffeec4d        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.tcplen    0x3ffeec4e        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.recv_acked
-                0x3ffeec40        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- *fill*         0x3ffeec42        0x2 
- .bss.ackno     0x3ffeec44        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.seqno     0x3ffeec48        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x3ffeec50        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ *fill*         0x3ffeec52        0x2 
+ .bss.ackno     0x3ffeec54        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.seqno     0x3ffeec58        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.tcp_optidx
-                0x3ffeec4c        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- *fill*         0x3ffeec4e        0x2 
+                0x3ffeec5c        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ *fill*         0x3ffeec5e        0x2 
  .bss.tcphdr_opt2
-                0x3ffeec50        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x3ffeec60        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.tcphdr_opt1len
-                0x3ffeec54        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x3ffeec64        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.tcphdr_optlen
-                0x3ffeec56        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.tcphdr    0x3ffeec58        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
- .bss.inseg     0x3ffeec5c       0x10 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x3ffeec66        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.tcphdr    0x3ffeec68        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+ .bss.inseg     0x3ffeec6c       0x10 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
  .bss.netif_num
-                0x3ffeec6c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
- *fill*         0x3ffeec6d        0x1 
+                0x3ffeec7c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
+ *fill*         0x3ffeec7d        0x1 
  .bss.ip_reass_pbufcount
-                0x3ffeec6e        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
+                0x3ffeec7e        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
  .bss.reassdatagrams
-                0x3ffeec70        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
- .bss.xid$5315  0x3ffeec74        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+                0x3ffeec80        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4_frag.o)
+ .bss.xid$5315  0x3ffeec84        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
  .bss.dhcp_pcb_refcount
-                0x3ffeec78        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
- *fill*         0x3ffeec79        0x3 
- .bss.dhcp_pcb  0x3ffeec7c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+                0x3ffeec88        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+ *fill*         0x3ffeec89        0x3 
+ .bss.dhcp_pcb  0x3ffeec8c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
  .bss.etharp_cached_entry
-                0x3ffeec80        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
- *fill*         0x3ffeec81        0x3 
+                0x3ffeec90        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
+ *fill*         0x3ffeec91        0x3 
  .bss.arp_table
-                0x3ffeec84       0xf0 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
+                0x3ffeec94       0xf0 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(etharp.o)
  .bss.allrouters
-                0x3ffeed74        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
+                0x3ffeed84        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
  .bss.allsystems
-                0x3ffeed78        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
+                0x3ffeed88        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(igmp.o)
  .bss.napt_data
-                0x3ffeed7c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
-                0x3ffeed7c                napt_data
+                0x3ffeed8c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
+                0x3ffeed8c                napt_data
  .bss.ip4_default_multicast_netif
-                0x3ffeed80        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
- .bss.ip_id     0x3ffeed84        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
- *fill*         0x3ffeed86        0x2 
+                0x3ffeed90        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
+ .bss.ip_id     0x3ffeed94        0x2 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip4.o)
+ *fill*         0x3ffeed96        0x2 
  .bss.sntp_retry_timeout
-                0x3ffeed88        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+                0x3ffeed98        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
  .bss.sntp_current_server
-                0x3ffeed8c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+                0x3ffeed9c        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
  .bss.sntp_set_servers_from_dhcp
-                0x3ffeed8d        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
- *fill*         0x3ffeed8e        0x2 
+                0x3ffeed9d        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+ *fill*         0x3ffeed9e        0x2 
  .bss.sntp_servers
-                0x3ffeed90       0x24 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
- .bss.sntp_pcb  0x3ffeedb4        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+                0x3ffeeda0       0x24 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+ .bss.sntp_pcb  0x3ffeedc4        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
  .bss.sntp_opmode
-                0x3ffeedb8        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
- *fill*         0x3ffeedb9        0x3 
- .bss.raw_pcbs  0x3ffeedbc        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(raw.o)
+                0x3ffeedc8        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(sntp.o)
+ *fill*         0x3ffeedc9        0x3 
+ .bss.raw_pcbs  0x3ffeedcc        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(raw.o)
  .bss.__new_handler
-                0x3ffeedc0        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\libstdc++.a(new_handler.o)
-                0x3ffeedc0                __new_handler
+                0x3ffeedd0        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\libstdc++.a(new_handler.o)
+                0x3ffeedd0                __new_handler
  .bss._ZL10sntp_timer
-                0x3ffeedc4       0x14 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
- .bss._ZL3dst   0x3ffeedd8        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
- *fill*         0x3ffeedda        0x2 
+                0x3ffeedd4       0x14 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
+ .bss._ZL3dst   0x3ffeede8        0x2 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
+ *fill*         0x3ffeedea        0x2 
  .bss._ZL14realtime_stamp
-                0x3ffeeddc        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
+                0x3ffeedec        0x4 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
  .bss._ZL16_settimeofday_cb
-                0x3ffeede0       0x10 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
+                0x3ffeedf0       0x10 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(sntp-lwip2.cpp.o)
  .bss._ZL11timeshift64
-                0x3ffeedf0        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(time.cpp.o)
+                0x3ffeee00        0x8 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(time.cpp.o)
  .bss.timeshift64_is_set
-                0x3ffeedf8        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(time.cpp.o)
-                0x3ffeedf8                timeshift64_is_set
+                0x3ffeee08        0x1 C:\Users\Cloyd\Desktop\HOMEAU~1\BASEME~2\Objects\bin\core\core.a(time.cpp.o)
+                0x3ffeee08                timeshift64_is_set
  *(.gnu.linkonce.b.*)
  *(COMMON)
- *fill*         0x3ffeedf9        0x3 
- COMMON         0x3ffeedfc        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
-                0x3ffeedfc                netif_default
- COMMON         0x3ffeee00       0x98 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
-                0x3ffeee00                netif_git
- COMMON         0x3ffeee98       0x15 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
-                0x3ffeee98                tcp_tw_pcbs
-                0x3ffeee9c                tcp_ticks
-                0x3ffeeea0                tcp_listen_pcbs
-                0x3ffeeea4                tcp_active_pcbs
-                0x3ffeeea8                tcp_bound_pcbs
-                0x3ffeeeac                tcp_active_pcbs_changed
- *fill*         0x3ffeeead        0x3 
- COMMON         0x3ffeeeb0       0x18 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip.o)
-                0x3ffeeeb0                ip_data
- COMMON         0x3ffeeec8        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
-                0x3ffeeec8                tcp_input_pcb
- COMMON         0x3ffeeecc        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
-                0x3ffeeecc                netif_default_LWIP2
-                0x3ffeeed0                netif_list
- COMMON         0x3ffeeed4        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(pbuf.o)
-                0x3ffeeed4                pbuf_free_ooseq_pending
- *fill*         0x3ffeeed5        0x3 
- COMMON         0x3ffeeed8        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(udp.o)
-                0x3ffeeed8                udp_pcbs
- COMMON         0x3ffeeedc       0x37 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
-                0x3ffeeedc                dhcp_rx_options_val
-                0x3ffeef08                dhcp_rx_options_given
-                0x3ffeef18                . = ALIGN (0x8)
- *fill*         0x3ffeef13        0x5 
-                0x3ffeef18                _bss_end = ABSOLUTE (.)
-                0x3ffeef18                _heap_start = ABSOLUTE (.)
+ *fill*         0x3ffeee09        0x3 
+ COMMON         0x3ffeee0c        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-esp.o)
+                0x3ffeee0c                netif_default
+ COMMON         0x3ffeee10       0x98 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(lwip-git.o)
+                0x3ffeee10                netif_git
+ COMMON         0x3ffeeea8       0x15 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp.o)
+                0x3ffeeea8                tcp_tw_pcbs
+                0x3ffeeeac                tcp_ticks
+                0x3ffeeeb0                tcp_listen_pcbs
+                0x3ffeeeb4                tcp_active_pcbs
+                0x3ffeeeb8                tcp_bound_pcbs
+                0x3ffeeebc                tcp_active_pcbs_changed
+ *fill*         0x3ffeeebd        0x3 
+ COMMON         0x3ffeeec0       0x18 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(ip.o)
+                0x3ffeeec0                ip_data
+ COMMON         0x3ffeeed8        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(tcp_in.o)
+                0x3ffeeed8                tcp_input_pcb
+ COMMON         0x3ffeeedc        0x8 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(netif.o)
+                0x3ffeeedc                netif_default_LWIP2
+                0x3ffeeee0                netif_list
+ COMMON         0x3ffeeee4        0x1 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(pbuf.o)
+                0x3ffeeee4                pbuf_free_ooseq_pending
+ *fill*         0x3ffeeee5        0x3 
+ COMMON         0x3ffeeee8        0x4 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(udp.o)
+                0x3ffeeee8                udp_pcbs
+ COMMON         0x3ffeeeec       0x37 C:\Users\Cloyd\AppData\Local\Arduino15\packages\esp8266\hardware\esp8266\2.6.3/tools/sdk/lib\liblwip2-536-feat.a(dhcp.o)
+                0x3ffeeeec                dhcp_rx_options_val
+                0x3ffeef18                dhcp_rx_options_given
+                0x3ffeef28                . = ALIGN (0x8)
+ *fill*         0x3ffeef23        0x5 
+                0x3ffeef28                _bss_end = ABSOLUTE (.)
+                0x3ffeef28                _heap_start = ABSOLUTE (.)
 
 .lit4           0x40106e50        0x0
                 0x40106e50                _lit4_start = ABSOLUTE (.)
